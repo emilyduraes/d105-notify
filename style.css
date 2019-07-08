@@ -1,5 +1,12 @@
 body{
     margin: 0;
+    display: grid;
+    grid-template-areas: "header"
+                        "section1"
+                        "section2"
+                        "section3"
+                        "footer";
+    grid-template-rows: 57vh 35vh 40vh 52vh 6vh;
 }
 
 header{
@@ -8,6 +15,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     display:flex;
+    grid-area: "header";
     height: 57vh;
     justify-content: center;
     
@@ -61,3 +69,52 @@ header nav button:hover{
     width: 28vw;
 }
 
+#firstSection{
+    align-items: center;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    grid-area: "section1";
+    justify-content: center;
+}
+
+#firstSection div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#firstSection div p{
+    font-size: 0.8rem;
+    text-align: center;
+    width: 26vw;
+}
+
+.features {
+    background-color: #3ccf7b;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 49px;
+    width: 49px;
+}
+
+.features img{
+    height: 25px;
+    width: 25px;
+}
+
+#secondSection{
+    grid-area: "section2";
+    background-color: #c0bebe;
+}
+
+#thirdSection{
+    grid-area: "section3";
+}
+
+footer{
+    grid-area: "footer";
+    background-color: #c0bebe;
+}
