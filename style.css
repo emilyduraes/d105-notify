@@ -63,11 +63,11 @@ header nav button:hover{
 }
 
 .hand{
-    height: 47vh;
+    height: 50vh;
     margin-top: auto;
     position: relative;
     right: -2vh;
-    width: 28vw;
+    width: 25vw;
 }
 
 #firstSection{
@@ -107,10 +107,12 @@ header nav button:hover{
 }
 
 #secondSection{
+    align-items: center;
     background-color: #c0bebe;
     display: flex;
     font-family: 'Open Sans', sans-serif;
     grid-area: "section2";
+    justify-content: space-evenly;
 }
 
 #thirdSection{
