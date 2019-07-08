@@ -19,6 +19,10 @@ h1{
     font-size: 2.3rem;
 }
 
+header nav span{
+    color: #3ccf7b;
+}
+
 h2{
     color: white;
     font-family: 'Open Sans', sans-serif;
@@ -26,16 +30,16 @@ h2{
 }
 
 header nav{
-    height: 30vh;
+    height: 36vh;
     width: 35vw;    
 }
 
 header nav button{
     background-color: black;
-    opacity: 0.5;
     border: none;
     border-radius: 24px;
     height: 6vh;
+    opacity: 0.5;
     text-align: center;
     width: 4vw;
 }
@@ -45,8 +49,15 @@ header nav button img{
     width: 20px;
 }
 
-header img{
-    height: 30vh;
-    margin-top: auto;
-    width: 30vw;
+header nav button:hover{
+    background-color: #3ccf7b;
 }
+
+.hand{
+    height: 47vh;
+    margin-top: auto;
+    position: relative;
+    right: -2vh;
+    width: 28vw;
+}
+
