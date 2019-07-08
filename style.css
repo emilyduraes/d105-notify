@@ -133,11 +133,29 @@ header nav button:hover{
     width: 30px;
 }
 
+.redeSocial:hover{
+    background-color: #3ccf7b;
+    opacity: 1.0;
+}
+
 #thirdSection a img{
     width:15px;
 }
 
 footer{
-    grid-area: "footer";
+    align-items: center;
     background-color: #c0bebe;
+
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    flex-direction: row;
+    grid-area: "footer";
+    justify-content: space-evenly;
+    
+}
+
+footer a{
+    color: gray;
+    font-size: 0.7em;
+    text-decoration: none;
 }
