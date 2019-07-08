@@ -118,6 +118,25 @@ header nav button:hover{
     grid-area: "section3";
 }
 
+#redesSociais{
+    display: flex;
+    flex-direction: row;
+}
+
+.redeSocial{
+    background-color: #c0bebe;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+}
+
+#thirdSection a img{
+    width:15px;
+}
+
 footer{
     grid-area: "footer";
     background-color: #c0bebe;
