@@ -188,13 +188,17 @@ iframe{
 footer{
     align-items: center;
     background-color: #c0bebe;
-
     display: flex;
     font-family: 'Open Sans', sans-serif;
     flex-direction: row;
     grid-area: "footer";
+    justify-content: center;    
+}
+
+footer div{
+    display: flex;
     justify-content: space-evenly;
-    
+    width: 70vh;
 }
 
 footer a{
