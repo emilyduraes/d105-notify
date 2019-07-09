@@ -157,8 +157,24 @@ iframe{
 
 
 #thirdSection{
+    align-items: center;
+    display: flex;
     font-family: 'Open Sans', sans-serif;
+    flex-direction: column;
     grid-area: "section3";
+    justify-content: center;
+}
+
+#thirdSection p:nth-child(1){
+    color: gray;
+    font-size: 1.0rem;
+    text-align: center;
+    font-style: italic;
+    width: 60vw;
+}
+
+#thirdSection p:nth-child(2){
+    color: gray;
 }
 
 #redesSociais{
